@@ -24,9 +24,10 @@ const Sends = () => {
         <div className="email">
             <input type="email" name='Email' placeholder='Example@gmail.com'  autoComplete='off' required />
         </div>
-      </form>
-      <button className="send" type='submit'>Send</button>
+        <button className="send" type='submit'>Send</button>
       <p className='para'>We respect your privacy.</p>
+      </form>
+      
         </div>
       </div>
     </div>

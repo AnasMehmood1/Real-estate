@@ -22,20 +22,21 @@ const Contactform = () => {
           <form action="https://formspree.io/f/xbjvngze" method='post'>
             <div className="names">
             <div className="cols">
-                <input type="text" name='FirstName' placeholder='First Name' />
+                <input type="text" name='FirstName' placeholder='First Name' required autoComplete='off' />
             </div>
             <div className="cols">
-                <input type="text" placeholder='Last Name' />
+                <input type="text" name='LastName' placeholder='Last Name'  required autoComplete='off' />
             </div>
             </div>
             <div className="emails">
-                <input type="email" placeholder='Example@gmail.com' />
+                <input type="email" name='Email' placeholder='Example@gmail.com'  required autoComplete='off' />
             </div>
             <div className="text-area">
-                <textarea name="" id="" cols="30" rows="10" placeholder='Send Message'></textarea>
+                <textarea name="Message" id="" cols="30" rows="10" placeholder='Send Message'  required autoComplete='off'></textarea>
             </div>
+            <button className="btn" type='submit'>Submit</button>
           </form>
-          <button className="btn" type='submit'>Submit</button>
+          
         </div>
 
     </div>
