@@ -1,0 +1,89 @@
+.agent-text{
+    text-align: center;
+    margin-top: 12px;
+}
+.agt{
+    color: black;
+}
+.agent-text p{
+     padding:1rem 2rem;
+    color:gray;
+}
+.agent{
+    width: 100%;
+    /* height: 70vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 4rem;
+}
+.agent-1{
+    position: relative;
+    width: 320px;
+    height: 400px;
+
+}
+.agent-2{
+    position: relative;
+    width: 320px;
+    height: 400px;
+   
+}
+.agent-3{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    
+}
+.agent-container-1{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    overflow: hidden;
+    /* background-size: 100% 100%; */
+}
+.one-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    right: -100%;
+    transition: 1.5s;
+
+}
+.one-1 div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    white-space: nowrap;
+}
+.one-1 div p{
+    color: white;
+
+}
+div h1{
+    color: white;
+    font-family: 'Domine', serif;
+}
+.two-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    transition: 1.5s;
+    right: -100%;
+}
+.agent-container-1:hover .one-1{
+ right: 0;
+}
+.agent-container-1:hover .two-1{
+    right: 100%;
+}

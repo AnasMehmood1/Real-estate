@@ -1,0 +1,202 @@
+.contact-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: baseline; */
+    margin-top: 10rem;
+    flex-wrap: wrap;
+}
+.right-info{
+    width: 500px;
+    padding: 2rem 3rem;
+}
+.right-info h1{
+     color:  black;
+     margin-bottom: 20px;
+}
+.right-info p {
+    color: gray;
+    font-size: 15px;
+    width: 420px;
+font-family: 'Nunito Sans', sans-serif;
+
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.icons div i{
+    font-size: 30px;
+    
+}
+.icons div:hover {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.466);
+}
+.left-info{
+    width: 500px;
+    /* padding:1rem 2rem; */
+    text-align: center;
+}
+.names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+.cols input{
+    width: 250px;
+    background-color: transparent;
+    border: 2px solid lightgray;
+    color: black;
+    height: 20px;
+    padding: 10px;
+
+    outline: none;
+ border-radius: 4px;
+ font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+.emails input{
+    width: 530px;
+    margin-left: -2rem;
+    color: black;
+    height: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid lightgray;
+    outline: none;
+ border-radius: 4px;
+ margin-top: 1.5rem;
+ font-family: 'Poppins', sans-serif;
+font-size: 15px;
+margin-bottom: 1rem;
+}
+.text-area textarea{
+    width: 530px;
+    border: 2px solid lightgray;
+    outline: none;
+    resize: none;
+    border-radius: 4px;
+    margin-left: -2rem;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn{
+    padding: 0.8rem 2rem;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+ font-family: 'Poppins', sans-serif;
+}
+
+@media(max-width:580px){
+    .cols input{
+        width: 350px;
+        background-color: transparent;
+        border: 2px solid lightgray;
+        color: black;
+        height: 20px;
+        padding: 10px;
+    
+        outline: none;
+     border-radius: 4px;
+     font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    }
+    .emails input{
+        width: 350px;
+        margin-left: 5px;
+        color: black;
+        height: 20px;
+        padding: 10px;
+        background-color: transparent;
+        border: 2px solid lightgray;
+        outline: none;
+     border-radius: 4px;
+     margin-top: 1.5rem;
+     font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    }
+    .text-area textarea{
+        width: 350px;
+        border: 2px solid lightgray;
+        outline: none;
+        resize: none;
+        border-radius: 4px;
+        margin-left: 5px;
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+}
+@media(max-width:400px){
+    .right-info{
+        width: 350px;
+        padding: 2rem 3rem;
+    }
+    .right-info p{
+        width: 350px;
+    }
+}
+@media(max-width:380px){
+    .cols input{
+        width: 300px;
+        background-color: transparent;
+        border: 2px solid lightgray;
+        color: black;
+        height: 20px;
+        padding: 10px;
+    
+        outline: none;
+     border-radius: 4px;
+     font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    }
+    .emails input{
+        width: 300px;
+        margin-left: 5px;
+        color: black;
+        height: 20px;
+        padding: 10px;
+        background-color: transparent;
+        border: 2px solid lightgray;
+        outline: none;
+     border-radius: 4px;
+     margin-top: 1.5rem;
+     font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    }
+    .text-area textarea{
+        width: 300px;
+        border: 2px solid lightgray;
+        outline: none;
+        resize: none;
+        border-radius: 4px;
+        margin-left: 5px;
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    .right-info{
+        width: 300px;
+        padding: 2rem 3rem;
+    }
+    .right-info p{
+        width: 300px;
+    }
+}

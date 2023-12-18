@@ -1,0 +1,24 @@
+.slides{
+    overflow: hidden;
+    padding: 60px 0px;
+    display: flex;
+    margin-top: -2rem;
+
+}
+.slide-img{
+    white-space: nowrap;
+    animation: 15s slide infinite linear;
+   
+}
+.slide-img img{
+     height: 30px;
+     margin-left: 50px;
+}
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}

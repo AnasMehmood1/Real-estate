@@ -1,0 +1,102 @@
+.send-container{
+    width: 100%;
+    padding: 5rem 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mail-container{
+    padding: 5rem 0px;
+}
+.mail-container p{
+    color: white;
+    margin: 20px 0px;
+ font-family: 'Poppins', sans-serif;
+font-size: 18px;
+}
+.names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+.col input{
+    width: 250px;
+    background-color: white;
+    color: black;
+    height: 20px;
+    padding: 10px;
+ border: none;
+    outline: none;
+ border-radius: 4px;
+ font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+.email input{
+    width: 520px;
+    background-color: white;
+    color: black;
+    height: 20px;
+    padding: 10px;
+ border: none;
+    outline: none;
+ border-radius: 4px;
+ margin-top: 1.5rem;
+ font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+.send{
+    padding: 0.8rem 2rem;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+ font-family: 'Poppins', sans-serif;
+}
+.para{
+ font-family: 'Poppins', sans-serif;
+
+}
+
+@media(max-width:750px){
+    .mail-container h1{
+ font-size: 1.8rem;
+    }
+}
+@media(max-width:580px){
+    .mail-container{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .mail-container h1{
+ font-size: 1.5rem;
+    }
+    .names{
+        flex-direction: column;
+    }
+    .col input{
+        width: 350px;
+    }
+    .email input{
+        width: 350px;
+    }
+}
+@media(max-width:415px){
+.mail-container h1{
+    line-height: 30px;
+}
+    .names{
+        flex-direction: column;
+    }
+    .col input{
+        width: 300px;
+    }
+    .email input{
+        width: 300px;
+    }
+}
